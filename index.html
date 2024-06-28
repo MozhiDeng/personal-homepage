@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MoZhi Deng's Personal Homepage</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #121212;
+            color: #ffffff;
+        }
+        .container {
+            width: 80%;
+            margin: 0 auto;
+            overflow: hidden;
+        }
+        header {
+            background: linear-gradient(45deg, #141e30, #243b55);
+            color: #fff;
+            padding-top: 30px;
+            min-height: 70px;
+            border-bottom: #00ccff 3px solid;
+        }
+        header a {
+            color: #fff;
+            text-decoration: none;
+            text-transform: uppercase;
+            font-size: 16px;
+        }
+        header ul {
+            padding: 0;
+            list-style: none;
+        }
+        header li {
+            float: left;
+            display: inline;
+            padding: 0 20px 0 20px;
+        }
+        header #branding {
+            float: left;
+        }
+        header #branding h1 {
+            margin: 0;
+            font-family: 'Orbitron', sans-serif;
+        }
+        header nav {
+            float: right;
+            margin-top: 10px;
+        }
+        .showcase {
+            min-height: 400px;
+            background: linear-gradient(135deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%);
+            text-align: center;
+            color: #fff;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            background-blend-mode: overlay;
+            border-bottom: #00ccff 3px solid;
+        }
+        .showcase h1 {
+            font-size: 55px;
+            margin-bottom: 10px;
+            font-family: 'Orbitron', sans-serif;
+            color: #fff;
+            text-shadow: 0 0 10px rgba(0, 0, 0, 0.7);
+        }
+        .showcase p {
+            font-size: 20px;
+            font-family: 'Roboto', sans-serif;
+            color: #fff;
+            text-shadow: 0 0 10px rgba(0, 0, 0, 0.7);
+        }
+        .content {
+            padding: 20px;
+            background: #1e1e1e;
+            box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+            margin-bottom: 20px;
+        }
+        .content h2 {
+            text-align: center;
+            font-family: 'Orbitron', sans-serif;
+        }
+        .content p {
+            font-family: 'Roboto', sans-serif;
+        }
+        .indent {
+            padding-left: 2em;
+        }
+        footer {
+            padding: 20px;
+            margin-top: 20px;
+            color: #fff;
+            background-color: #333;
+            text-align: center;
+        }
+    </style>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div id="branding">
+                <h1>邓末芝的个人网页</h1>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#about">基本信息</a></li>
+                    <li><a href="#interests">荣誉奖励</a></li>
+                    <li><a href="#contact">联系方式</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    
+    <section class="showcase">
+        <div class="container">
+            <h1>欢迎来到我的个人网页</h1>
+            <p>智能驾驶高级算法工程师</p>
+        </div>
+    </section>
+    
+    <section class="content" id="about">
+        <div class="container">
+            <h2>基本信息</h2>
+            <p>您好，我是邓末芝，一名智能驾驶高级算法工程师。我致力于开发和优化先进的智能驾驶算法，旨在提高智能驾驶系统的安全性和效率。</p>
+            <p>教育背景：</p>
+            <p class="indent">2017-2021 安徽工业大学 机械工程 学士 成绩排名 Top 3%；</p>   
+            <p class="indent">2021-2024 湖南大学（国家重点实验室）机械工程 硕士 成绩排名 Top 20%；</p>
+            <p>研究方向：</p>
+	    <p class="indent">motion planning and control；</p>
+            <p>工作经历：</p> 
+            <p class="indent">2021.09-2024.04 某智能探测蛇形机器人项目（国防科工委重点项目）；</p> 
+            <p class="indent">2022.12-2023.06 百度阿波罗智能技术（北京）有限公司 自动驾驶技术部 PNC技术组；</p>
+            <p>专业技能：</p> 
+            <p class="indent">熟悉最优控制算法并完成对应自动驾驶领域车辆运动规划求解器的开发工作，如LQR，iLQR，DDP等；</p> 
+            <p class="indent">熟悉常见的数值优化算法，梯度下降、拟牛顿法、KKT条件、QP以及增广拉格朗日方法等；</p>
+            <p class="indent">熟悉C++以及其中常用的STL库、Eigen库等，熟悉ROS，MATLAB，了解Python；</p>
+            <p class="indent">熟悉常见的搜索算法、采样算法及其变种算法，熟悉EM planning以及lattice planning；</p>
+            <p class="indent">熟悉强化学习的基本原理以及了解深度学习；</p>
+            <p>兴趣爱好：</p>
+            <p class="indent">健身、打羽毛球、看电影、看动漫；</p>
+        </div>
+    </section>
+    
+    <section class="content" id="interests">
+        <div class="container">
+            <h2>荣誉奖励</h2>
+            <p class="indent">湖南大学一等学业奖学金、优秀志愿者、安徽省优秀毕业生等；</p>
+            <p class="indent">发明专利1项、实用新型专利4项、国家级奖项3项、省级奖项3项；</p>
+        </div>
+    </section>
+    
+    <section class="content" id="contact">
+        <div class="container">
+            <h2>联系方式</h2>
+            <p>您可以通过以下方式联系我：</p>
+            <ul>
+                <li>Email: <a href="mailto:3095652843@qq.com" style="color: #00ccff;">dengmozhi123@Gmail.com</a></li>
+            </ul>
+        </div>
+    </section>
+    
+    <footer>
+        <p>邓末芝 &copy; 2023</p>
+    </footer>
+</body>
+</html>
